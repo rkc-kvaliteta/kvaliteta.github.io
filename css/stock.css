@@ -1,0 +1,70 @@
+.row
+{
+	padding: 0; 
+	margin:0;
+}
+#header
+{
+	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(/home/kss-07/Desktop/login/img/header-bg2.jpeg) !important;
+	height: auto !important;
+	background-size: cover;
+	background-position: center;
+}
+.add 
+{
+	text-align: center;
+	padding: 10px;
+}
+.add-pro
+{
+	text-align: center;
+	margin-top: 50px;
+	margin-right: 50px;
+	padding: 15px;
+	background-color: #f5bf06;
+	border: #f5bf06;
+	font-weight: bold;
+}
+.add-pro2
+{
+	text-align: center;
+	margin-top: 50px;
+	padding: 15px;
+	background-color: #f5bf06;
+	border: #f5bf06;
+	font-weight: bold;
+}
+.add-pro:hover, .add-pro2:hover
+{
+	background-color: #fed136;
+	border:#fed136;
+}
+.product, .product2
+{
+	width: 70%;
+	margin: auto;
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+.product th, .product2 th 
+{
+	color: #fff !important;
+	padding: 10px;
+	border:1px solid #ddd !important;
+}
+.product td, .product2 td
+{
+	border:1px solid #ddd !important;
+	padding: 20px;
+}
+.distributor p, .distributor2 p,.retailer p, .retailer2 p
+{
+	color: #fff;
+	padding: 10px;
+	text-align: center;
+	font-weight: bold;
+}
+.dis, .dis2, .retai, .retai2
+{
+	margin-top: 20px;
+}

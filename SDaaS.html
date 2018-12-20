@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>Kvaliteta | SDaaS</title>
+
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<!-- <link rel="stylesheet" href="css/font-awesome.css"> --> 
+<link rel="stylesheet" href="external/fontawesome5.5.0/css/all.css">
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/style.css">
+
+<link rel="shortcut icon" href="img/logo.png">
+
+</head> 
+<script>
+function tab1()
+{
+    document.getElementById('list1').style.display="block";
+    document.getElementById('list2').style.display="none";
+    document.getElementById('list3').style.display="none";
+}
+function tab2()
+{
+    document.getElementById('list2').style.display="block";
+    document.getElementById('list1').style.display="none";
+    document.getElementById('list3').style.display="none";
+}
+function tab3()
+{
+    document.getElementById('list3').style.display="block";
+    document.getElementById('list1').style.display="none";
+    document.getElementById('list2').style.display="none";
+}
+function tab1div()
+{
+    document.getElementById('list1').style.display="block";
+    document.getElementById('tab1btn').style.display="block";
+}
+function tab2div()
+{
+    document.getElementById('list2').style.display="block";
+    document.getElementById('tab2btn').style.display="block";
+}
+function tab3div()
+{
+    document.getElementById('list3').style.display="block";
+    document.getElementById('tab3btn').style.display="block";
+}
+</script>
+<body>
+
+    <!--Top header-->
+
+	<header>
+        <div class="topbar">   
+            <div class="top-item">
+                <div class="row">
+                    <div class="col-md-2 col-md-offset-8">
+                        <div class="search-control"> 
+                            <form>
+                                <div class="input-group searchtop">                                
+                                    <input type="text" id="search" class="search-form" placeholder="Search here...">
+                                    <span class="input-group-btn spanbtn">
+                                    <button type="submit" class="btn btn-primary searchbtn"><i class="fa fa-search search-icon"></i></button>
+                                    </span>
+                                </div>
+                            </form>
+                        </div> 
+                    </div> 
+
+                    <div class="col-md-2">
+                        <div class="icons">
+                            <ul class="social-icons"> 
+                                <li><a href="MAILTO:info@kvaliteta.in" target="_blank" title="Email" class="email">
+                                    <i class="fas fa-envelope" aria-hidden="true"></i></a></li>
+                                <li><a href="http://www.linkedin.com/company/2436843" target="_blank" title="Linkedin" class="linkedin">
+                                    <i class="fab fa-linkedin" aria-hidden="true"></i></a> 
+                                </li>
+                                <li><a href="http://twitter.com/KvalitetaIndia" target="_blank" title="Twitter" class="twitter">
+                                    <i class="fab fa-twitter" aria-hidden="true"></i></a>
+                                </li>
+                                <li><a href="http://www.facebook.com/KvalitetaIndia" target="_blank" title="Facebook" class="facebook">
+                                    <i class="fab fa-facebook" aria-hidden="true"></i></a>
+                                </li>
+                                <li><a href="https://www.youtube.com/channel/uczxshgtgv3it7kuvhiulmtw" target="_blank" title="youtube" class="youtube">
+                                    <i class="fab fa-youtube" aria-hidden="true"></i></a>
+                                </li>
+                            </ul>
+                        </div> 
+                    </div>
+                </div> 
+            </div>
+        </div>
+    </header>
+
+    <div class="clear"></div> 
+
+    <!--Navigation-->
+
+    <header>
+        <div class="navbar navbar-default navbar-fixed-top">  
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="navbar-toggler-icon"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span> 
+                </button>
+                    <a class="navbar-brand menu" href="homepage.html"><img src="images/logo.png"></a>
+            </div>
+            <div class="navbar-collapse collapse divmenu">
+                <ul class="nav navbar-nav menu-item navbar-right">
+                    <li class="nav-item"><a href="homepage.html" class="nav-link"><i class="fas fa-home"></i></a></li>
+                    <li class="nav-item"><a href="SDaaS.html" class="nav-link">SDaaS</a></li>
+                    <li class="nav-item"><a href="enterprise.html" class="nav-link">ENTERPRISE-IT</a></li>
+                    <li class="nav-item"><a href="serviceprovider.html" class="nav-link">SERVICE PROVIDER-IT</a></li>
+                    <li class="nav-item"><a href="partners.html" class="nav-link">PARTNERING</a></li>
+                    <li class="nav-item"><a href="aboutus.html" class="nav-link">ABOUT US</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+	<div class="clear"></div>
+
+    <!--SDaaS img-->
+
+    <section class="landing">
+         <div class="row">
+                <div class="col-md-12">
+                    <div class="jumbotron banner">
+                        <img src="images/intro-sdaas-team.jpg"/>
+                        <div class="bannertext">
+                            <p class="text-center text-uppercase">Using modern and responsive integrated practices, we design, develop, test and deliver optimized software. <br>We are a highly skilled and collaborative team</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <div class="clear"></div>
+
+    <!--Buttons-->
+    
+    <section class="buttons">
+        <div class="navbar-collapse collapse" id="sdaas-btn">
+            <ul class="nav nav-justified"> 
+                <li id="tab1btn" class="kite-btn">
+                    <a href="#kiteframework" onclick="tab1();">
+                    <span onclick="tab1div()">KITE FRAMEWORK</span></a>
+                </li>
+                <li id="tab2btn" class="cid-btn">
+                    <a href="#cid" id="tab2btn" onclick="tab2();">
+                    <span onclick="tab2div()">CID</span></a>
+                </li>
+                <li id="tab3btn" class="cid-btn">
+                    <a href="#offers" onclick="tab3();">
+                    <span onclick="tab3div()">OFFERINGS</span></a>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <div class="clear"></div>
+
+    <!--Framework-->
+
+    <section class="sublanding" id="list1" hidden="">
+        <div class="hide">
+            <button type="button" class="btn-default" onclick="hidediv();"></button>
+        </div>
+        <div class="section-header">
+            <div class="row">
+                <div class="col-md-12">
+                    <h2>KITE FRAMEWORK</h2>
+                        <!--START KITE Interaction-->
+                        <div class="row">
+                            <div class="col-lg-8 col-md-8 col-sm-8 col-xs-12">
+                            <!--START KITE MAP-->
+                                <div class="kitetechnology-contents">
+                                    <img src="images/kite-bannerimg.jpg" class="img-responsive">
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                                <div class="main-content">
+                                    <h3>PRINCIPLES OF KITE</h3>
+                                    <ul>
+                                        <li><i class="fa fa-chevron-circle-right kite-text" aria-hidden="true">Build to change instead of building to last</i></li>
+                                        <li><i class="fa fa-chevron-circle-right kite-text" aria-hidden="true">Model to analyze and reduce risk</i></li>
+                                        <li><i class="fa fa-chevron-circle-right kite-text" aria-hidden="true">Use models and collaboration tool</i></li>
+                                        <li><i class="fa fa-chevron-circle-right kite-text" aria-hidden="true">Identify key engineering decisions</i></li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                                <div class="main-content">
+                                    <h3>BENEFITS</h3>
+                                <ul>
+                                    <li><i class="fa fa-chevron-circle-right kite-text" aria-hidden="true">Quick Deployment</i></li>
+                                    <li><i class="fa fa-chevron-circle-right kite-text" aria-hidden="true">Customizable</i></li>
+                                    <li><i class="fa fa-chevron-circle-right kite-text" aria-hidden="true">Adaptability</i></li>
+                                    <li><i class="fa fa-chevron-circle-right kite-text" aria-hidden="true">Flexibility</i></li>
+                                </ul>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                                <div class="main-content">
+                                    <h3>FEATURES</h3>
+                                    <ul>
+                                        <li><i class="fa fa-chevron-circle-right kite-text" aria-hidden="true">Applicable to both JAVA and .NET windows platforms</i></li>
+                                        <li><i class="fa fa-chevron-circle-right kite-text" aria-hidden="true">Customizable</i></li>
+                                        <li><i class="fa fa-chevron-circle-right kite-text" aria-hidden="true">Adaptability</i></li>
+                                        <li><i class="fa fa-chevron-circle-right kite-text" aria-hidden="true">Flexibility</i></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <!--END KITE text-->
+                        </div>
+                        <!--END KITE Interaction-->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="clear"></div>
+
+    <!--CID-->
+
+    <section class="sublanding" id="list2" hidden="">
+        <div class="hide">
+            <button type="button" class="btn-default" onclick="hidediv();"></button>
+        </div>
+        <div class="section-header">
+        <div class="row">
+            <div class="col-md-12">
+                <h2>CID</h2>
+                <div class="cid-content">
+                    <p>Biometric and Access Solutions is Proving new concepts in the way customer problems are solved utilizing biomertics; including customizing based on each customer's need.<br />
+                    We have achieved a new level of price-performance by delivering an affordable application,<b> Capture identify Deduplication(C.I.D)</b>, utilizing windows platforms.</p>
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-4 col-md-4">
+                            <div class="cidimg">
+                                <img src="images/CiD.png" class="img-responsive">
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-8 col-md-8">
+                            <div class="imgcontent">
+                                <p>The<b> C.I.D </b>solution offers various modules like</p>            
+                                <li>Registration,</li>
+                                <li>Enrolment,</li>
+                                <li>Document Scanning,</li>
+                                <li>Deduplication,</li>
+                                <li>Access Control,</li>
+                                <li>ID Card Management,</li>
+                                <li>Fingerprint for Time and Attendance.</li>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="clear"></div>
+
+    <!--Offerings-->
+    
+    <section class="sublanding" id="list3" hidden="">
+        <div class="hide">
+            <button type="button" class="btn-default" onclick="hidediv();"></button>
+        </div>
+        <div class="section-header">
+            <div class="row">
+                <div class="col-md-12">
+                    <h2>OFFERINGS</h2>
+                    <div class="offer-content">
+                        <div class="row">
+                            <div class="col-sm-4 col-md-4 sdass-off">
+                                <div class="service">
+                                    Business Process Analysis
+                                </div>
+                            </div>
+                            <div class="col-sm-4 col-md-4 sdass-off">
+                                <div class="service">
+                                    Technical Consulting
+                                </div>
+                            </div>
+                            <div class="col-sm-4 col-md-4 sdass-off">
+                                <div class="service">
+                                    Resource Development
+                                </div>
+                            </div>  
+                            <div class="col-sm-4 col-md-4 sdass-off">
+                                <div class="service">
+                                    Business Process Mapping
+                                </div>
+                            </div>
+                            <div class="col-sm-4 col-md-4 sdass-off">
+                                <div class="service">
+                                    Resource Planning
+                                </div>
+                            </div>
+                            <div class="col-sm-4 col-md-4 sdass-off">
+                                <div class="service">
+                                    Procurement Advisory
+                                </div>
+                            </div>
+                            <div class="col-sm-4 col-md-4 sdass-off">
+                                <div class="service">
+                                    Re-engineering
+                                </div>
+                            </div>  
+                            <div class="col-sm-4 col-md-4 sdass-off">
+                                <div class="service">
+                                    Project Management
+                                </div>
+                            </div>  
+                            <div class="col-sm-4 col-md-4 sdass-off">
+                                <div class="service">
+                                    Risk Management
+                                </div>
+                            </div> 
+                            <div class="col-sm-4 col-md-4 sdass-off">
+                                <div class="service">
+                                    Training
+                                </div>
+                            </div>   
+                            <div class="col-sm-4 col-md-4 sdass-off">
+                                <div class="service">
+                                    Prototyping
+                                </div>
+                            </div> 
+                            <div class="col-sm-4 col-md-4 sdass-off">
+                                <div class="service">
+                                    Cost Management
+                                </div>
+                            </div>
+                            <div class="col-sm-4 col-md-4 sdass-off">
+                                <div class="service">
+                                    Manpower
+                                </div>
+                            </div>
+                            <div class="col-sm-4 col-md-4 sdass-off">
+                                <div class="service">
+                                    Out-Sourcing
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Footer-->
+
+     <footer>
+        <div class="kvalinkfooter"></div>
+        <div class="kvafooter">
+            <p>Copyright &copy; <script type="text/javascript">document.write(new Date().getFullYear());</script> All Rights Reserved</p>     
+        </div>
+        <div class="kvaallrightfooter"></div>
+    </footer>
+
+    <div class="clear"></div>
+
+</body>
+</html>
