@@ -83,9 +83,9 @@
 		    <li class="nav-item"><a href="homepage.html" class="nav-link"><i class="fas fa-home"></i></a></li>
                     <li class="nav-item"><a href="SDaaS.html" class="nav-link">SDaaS</a></li>
                     <li class="nav-item"><a href="enterprise.html" class="nav-link">ENTERPRISE-IT</a></li>
-                    <li class="nav-item"><a href="serviceprovider.html" class="nav-link">SERVICE PROVIDER-IT</a></li>
+                    <li class="nav-item"><a href="service provider.html" class="nav-link">SERVICE PROVIDER-IT</a></li>
                     <li class="nav-item"><a href="partners.html" class="nav-link">PARTNERING</a></li>
-                    <li class="nav-item"><a href="aboutus.html" class="nav-link">ABOUT US</a></li>
+                    <li class="nav-item"><a href="about us.html" class="nav-link">ABOUT US</a></li>
                 </ul>
             </div>
         </div>
